@@ -1,0 +1,3 @@
+include ':localizededittext'
+include ':app'
+rootProject.name = "StringDiffers"

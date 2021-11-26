@@ -1,0 +1,5 @@
+<resources>
+    <string name="en_allowed">Only English Text allowed</string>
+    <string name="ar_allowed">Only Arabic Text allowed</string>
+
+</resources>

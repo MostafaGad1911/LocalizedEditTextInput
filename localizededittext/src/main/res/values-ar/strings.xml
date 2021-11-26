@@ -1,0 +1,5 @@
+<resources>
+    <string name="en_allowed">يسمح فقط بالنص الإنجليزي</string>
+    <string name="ar_allowed">يسمح فقط بالنص العربي</string>
+
+</resources>

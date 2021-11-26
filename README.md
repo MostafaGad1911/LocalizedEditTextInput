@@ -1,7 +1,7 @@
 # LocalizedEditText
 Custom edit text that allow only one language 
 
-[![](https://jitpack.io/v/MostafaGad1911/LocalizedEditText.svg)](https://jitpack.io/#MostafaGad1911/LocalizedEditText)
+[![](https://jitpack.io/v/MostafaGad1911/LocalizedEditText.svg)](https://jitpack.io/#MostafaGad1911/LocalizedEditTextInput)
 
 # Supported languages : <br>
        Arabic , English  
@@ -39,7 +39,7 @@ Custom edit text that allow only one language
 
 ## Step 2 : Add the dependency
  ``` kotlin  
-        implementation 'com.github.MostafaGad1911:LocalizedEditText:1.9.2'
+        implementation 'com.github.MostafaGad1911:LocalizedEditTextInput:1.0.0'
         
 ```         
 

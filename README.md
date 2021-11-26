@@ -1,7 +1,7 @@
 # LocalizedEditText
 Custom edit text that allow only one language 
 
-[![](https://jitpack.io/v/MostafaGad1911/LocalizedEditText.svg)](https://jitpack.io/#MostafaGad1911/LocalizedEditTextInput)
+[![](https://jitpack.io/v/MostafaGad1911/LocalizedEditTextInput.svg)](https://jitpack.io/#MostafaGad1911/LocalizedEditTextInput)
 
 # Supported languages : <br>
        Arabic , English  

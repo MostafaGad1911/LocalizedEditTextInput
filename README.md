@@ -39,7 +39,7 @@ Custom edit text that allow only one language
 
 ## Step 2 : Add the dependency
  ``` kotlin  
-        implementation 'com.github.MostafaGad1911:LocalizedEditTextInput:1.0.0'
+        implementation 'com.github.MostafaGad1911:LocalizedEditTextInput:1.1.0'
         
 ```         
 

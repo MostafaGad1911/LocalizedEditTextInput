@@ -12,7 +12,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import mostafa.projects.gadexentions.GadExt.Companion.showToast
 import java.util.*
 import java.util.regex.Pattern
 import kotlin.concurrent.timerTask
@@ -97,35 +96,6 @@ class AndroidLocalizedEditText(context: Context, attrs: AttributeSet?) :
 
 }
 
-private val arFilters: InputFilter = object : InputFilter {
-    override fun filter(
-        source: CharSequence?,
-        start: Int,
-        end: Int,
-        dest: Spanned?,
-        dstart: Int,
-        dend: Int
-    ): CharSequence? {
-        return if (source != null && source.matches(Regex("^[A-z0-9ًٌٍَُِّ]+\$"))) {
-            ""
-        } else null
-    }
-}
-
-private val enFilters: InputFilter = object : InputFilter {
-    override fun filter(
-        source: CharSequence?,
-        start: Int,
-        end: Int,
-        dest: Spanned?,
-        dstart: Int,
-        dend: Int
-    ): CharSequence? {
-        return if (source != null && source.matches(Regex("[ء-ي]+"))) {
-            ""
-        } else null
-    }
-}
 
 
 fun String.RemoveNumbers():String{

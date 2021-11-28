@@ -20,7 +20,7 @@ dependencies {
     // Localization validations
     implementation 'org.apache.commons:commons-lang3:3.11'
 
-    implementation 'com.github.MostafaGad1911:GadExts:1.4.0'
+    implementation 'com.github.MostafaGad1911:HelperExtensions:1.0.0'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.6.0'
